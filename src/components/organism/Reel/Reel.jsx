@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Video from '@/components/molecules/Video/Video';
 import useFetchAllVideos from '@/hooks/apis/useFetchAllVideos';
+import './Reel.css';
 
 
 export const Reel = () => {

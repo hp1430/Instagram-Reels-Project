@@ -1,0 +1,9 @@
+.container {
+    position: relative;
+    height: 90vh;
+    border-radius: 25px;
+    width: 50vh;
+    overflow: scroll;
+    scrollbar-width: none;
+    scroll-snap-type: y mandatory;  /* it will snap to the nearest element */
+}
